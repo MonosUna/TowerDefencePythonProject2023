@@ -1,6 +1,5 @@
 import pygame
 
-
 FPS = 60
 
 WINDOW_SIZE = (1250, 800)
@@ -8,6 +7,7 @@ CELL_SIZE = 50
 
 NUM_ROWS = int(WINDOW_SIZE[1] / CELL_SIZE)
 NUM_COLS = int(WINDOW_SIZE[0] / CELL_SIZE)
+
 
 field = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -38,6 +38,10 @@ white = (255, 255, 255)
 purple = (130, 0, 200)
 yellow = (255, 255, 0)
 blue = (0, 0, 255)
+darkviolet = (148, 0, 211)
+orange = (255, 165, 0)
+brown = (139, 69, 19)
+pink = (255, 0, 255)
 
 grid = []
 for row in range(NUM_ROWS):
